@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/simple-cards-grid-layout/static/css/main.d9b05d14.chunk.css",
-    "main.js": "/simple-cards-grid-layout/static/js/main.2c5bf4d9.chunk.js",
-    "main.js.map": "/simple-cards-grid-layout/static/js/main.2c5bf4d9.chunk.js.map",
+    "main.js": "/simple-cards-grid-layout/static/js/main.c644e0ff.chunk.js",
+    "main.js.map": "/simple-cards-grid-layout/static/js/main.c644e0ff.chunk.js.map",
     "runtime-main.js": "/simple-cards-grid-layout/static/js/runtime-main.56f4a659.js",
     "runtime-main.js.map": "/simple-cards-grid-layout/static/js/runtime-main.56f4a659.js.map",
     "static/css/2.d95830b2.chunk.css": "/simple-cards-grid-layout/static/css/2.d95830b2.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.d95830b2.chunk.css",
     "static/js/2.08e21977.chunk.js",
     "static/css/main.d9b05d14.chunk.css",
-    "static/js/main.2c5bf4d9.chunk.js"
+    "static/js/main.c644e0ff.chunk.js"
   ]
 }
