@@ -10,10 +10,7 @@ export default function Card({
     toggleNotification,
 }) {
     return (
-        <div
-            className="card"
-            onClick={() => toggleNotification(url === message ? '' : url)}
-        >
+        <div className="card">
             <div className="card_img-wrap">
                 <img className="card_img" src={image} alt="" />
             </div>
@@ -24,7 +21,14 @@ export default function Card({
                 <div className="card_text" style={{ marginBottom: 12 }}>
                     {text}
                 </div>
-                <button className="card_btn primary-button">OPEN</button>
+                <button
+                    className="card_btn primary-button"
+                    onClick={() =>
+                        toggleNotification(url === message ? '' : url)
+                    }
+                >
+                    OPEN
+                </button>
             </div>
         </div>
     )
