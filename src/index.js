@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './normilize.css'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "typeface-roboto";
 
 ReactDOM.render(
   <React.StrictMode>

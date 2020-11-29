@@ -1,38 +1,49 @@
 .App {
-  text-align: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 50px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    max-width: 768px;
+    margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cards-list {
+    display: grid;
+    grid-gap: 24px;
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (min-width: 600px) {
+    .cards-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 900px) {
+    .cards-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.primary-button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 28px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    min-width: 80px;
+    height: 30px;
+
+    background: #0788ff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.14);
+    border-radius: 40px;
+    transition: all 0.3s ease;
+}
+.primary-button:hover {
+    background: #0667bf;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.14);
 }
