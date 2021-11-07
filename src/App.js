@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import CardsList from './components/CardsList';
-
+import './App.css'
+import CardsList from './components/CardsList'
 
 function App() {
-  return (
-    <div className="App">
-      <CardsList />
-    </div>
-  );
+    return (
+        <div className="App">
+            <CardsList />
+        </div>
+    )
 }
 
-export default App;
+export default App

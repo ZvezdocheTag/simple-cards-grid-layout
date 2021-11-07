@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Card from '../Card'
 import Notification from '../Notification'
+import './CardsList.css'
 
 const dummyData = [
     {
